@@ -1,0 +1,579 @@
+/* PENDIENTES */
+/* Comenzar a darle formato responsive con Media Querys*/
+/* Agregar Bootstrap*/
+/* Ver curso de GIT y GitHub*/
+
+/*COMPLETADOS*/
+/* Utilizar Flex para acomodar los cuadros y las fotos */
+/* Utilizar Grids para armar una galería dentro de cada sección */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: #630ad8;
+    font-size: 20px;
+    font-family: system-ui;
+    font-weight: 600;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+header{
+    background-color:#f6f3fa;
+    width: 100%;
+    height: 100px;
+    font-size: 20px;
+    font-family: system-ui;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding: 0px;
+    text-align: center;
+}
+
+.logo{
+    height: auto;
+    width: 150px;
+    float: left;
+    padding-top: 10px;
+}
+
+.barra{
+    /* float: right; */
+    word-spacing: 30px;
+    display: inline-block;
+}
+
+.barra a{
+    text-decoration: none;
+}
+
+.barra li{
+    list-style: none;
+    display: inline-block;
+}
+
+.barra a:hover{
+    color: #ff3cff;
+}
+
+.opciones{
+    margin: 10px;
+    padding: 22px;
+    /* border:#053d4b solid 1px;
+    border-radius: 25px; */
+}
+
+.opciones a{
+    color: #5f1aae;
+    font-size: 25px;
+}
+
+.barra a{
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 3px;
+    transition: background-size 0.6s;
+}
+
+.barra a:hover{
+    background-size: 100% 3px;
+}
+
+.barra .active a {
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 3px;
+}
+
+.registro{
+    float: right;
+    margin: 10px;
+    padding-top: 28px;
+    padding-right: 20px;
+    font-size: 15px;
+}
+
+.registro li{
+    list-style: none;
+    display: inline-block;
+}
+
+.registro a{
+    text-decoration: none;
+}
+
+.fondo1{
+    height: 400px;
+    width: 100%;
+    background-image: url(Img/index.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.inframes{
+    height: auto;
+    width: 100%;
+    margin: 20px;   
+}
+
+.video{
+    height: 350px;
+    width: 45%;
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 15px;
+}
+
+.ubicacion{
+    display: inline-block;
+}
+
+#footer{
+    height: 150px;
+    width: 100%;
+    background-color: #630ad8;
+    color: white !important; 
+}
+    
+#footer section p{
+    display: inline-block;
+    text-align: left;
+    color: #f5f3f9;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 55px;  
+}
+    
+#footer section a{
+    text-align: right;
+    color: #ffffff;
+    font-size: 20px;
+    float: right;
+    margin-right: 20px;
+    margin-top: 55px;
+    text-decoration: none;
+}
+
+#footer section a:hover {
+    color: #aa6cf0;
+}
+
+.redes{
+    padding-left: 35px;
+}
+
+.redes a{ 
+    color: rgb(253, 203, 255);
+}
+
+.redes a:hover{ 
+    color: #ff3cff;
+}
+
+.fondo-destino{
+    height: 400px;
+    width: 100%;
+    background-image: url(Img/destino.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+    
+.fondo-alojamientos{
+        height: 400px;
+        width: 100%;
+        background-image: url(Img/alojamientos.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+}
+    
+.fondo-excursiones{
+    height: 400px;
+    width: 100%;
+    background-image: url(Img/excursiones.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+    
+.fondo-traslados{
+    height: 400px;
+    width: 100%;
+    background-image: url(Img/traslados.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    }   
+
+.conenedorCuadrados{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+.cuadrado{
+    height: 320px;
+    width: 300px;
+    border: #bd90f9 solid 1px;
+    text-align: center;
+    padding-top: 10px;
+    transition: all 0.7s;
+}
+
+.cuadrado:hover{
+    transform: scale(1.08);
+    transition: all 0.5s;
+}
+.cuadradroTitulo{
+    color: #630ad8;
+}
+
+.cuadradoContenedorFoto{
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-size: cover;
+    border: #c4c2c4 solid 1px;
+    box-sizing: content-box;
+}
+
+.cuadradoContenedorFoto img{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+}
+
+.textoCuadro{
+    color: #9c9c9c;
+    font-size: 30px;
+    text-align: center;
+    padding: 50px;
+}
+
+.botonImg{
+    margin: 15px;
+}
+
+.botonImg a{
+    height: 50px;
+    width: auto;
+    background-color: #5f1aae;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 8px;
+}
+
+.botonImg a:hover{
+    background-color: #ff3cff;
+    transition: all 0.5s;
+}
+
+.tituloGaleria{
+    height: 110px;
+    width: 100%;
+    background-color: #630ad8;
+    border-radius: 15px;
+    border: #f5f3f9 solid 10px;
+    color: white;
+    text-align: center;
+    font-family: system-ui;
+    padding: 10px;
+    letter-spacing: 15px;
+    text-transform: uppercase;
+    font-size: 50px;
+    text-shadow: #b998fa 0 0 5px;
+    font-weight: 600px;
+}
+
+.galeria{
+    background-color: rgb(240, 240, 240);
+    height: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 200px);
+    grid-template-areas: 
+    "item1 item2 item3 item3"
+    "item1 item4 item5 item6"
+    "item7 item4 item8 item8";
+    padding: 40px;
+    grid-gap: 20px;
+}
+
+.itemImg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.item{
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    box-shadow: 0 0 3px 1px #999999;
+    transition: all 1s;
+}
+
+.item:hover{
+    transform: scale(1.02);
+    transition: all 0.9;
+}
+
+
+/* Jujuy & Salta*/
+.jys1{
+    grid-area: item1;
+    background-image: url(./pages/img-jujuy_salta/1.jpg);
+}
+
+.jys2{
+    grid-area: item2;
+    background-image: url(./pages/img-jujuy_salta/2.jpg);
+}
+
+.jys3{
+    grid-area: item3;
+    background-image: url(./pages/img-jujuy_salta/3.jpg);
+}
+
+.jys4{
+    grid-area: item4;
+    background-image: url(./pages/img-jujuy_salta/4.jpg);
+}
+
+.jys5{
+    grid-area: item5;
+    background-image: url(./pages/img-jujuy_salta/5.jpg);
+}
+
+.jys6{
+    grid-area: item6;
+    background-image: url(./pages/img-jujuy_salta/6.jpg);
+}
+
+.jys7{
+    grid-area: item7;
+    background-image: url(./pages/img-jujuy_salta/7.jpg);
+}
+
+.jys8{
+    grid-area: item8;
+    background-image: url(./pages/img-jujuy_salta/8.jpg);
+}
+
+/* Patagonia*/
+
+.pat1{
+    grid-area: item1;
+    background-image: url(./pages/img-patagonia/1.jpg);
+}
+
+.pat2{
+    grid-area: item2;
+    background-image: url(./pages/img-patagonia/2.jpg);
+}
+
+.pat3{
+    grid-area: item3;
+    background-image: url(./pages/img-patagonia/3.jpg);
+}
+
+.pat4{
+    grid-area: item4;
+    background-image: url(./pages/img-patagonia/4.jpg);
+}
+
+.pat5{
+    grid-area: item5;
+    background-image: url(./pages/img-patagonia/5.jpg);
+}
+
+.pat6{
+    grid-area: item6;
+    background-image: url(./pages/img-patagonia/6.jpg);
+}
+
+.pat7{
+    grid-area: item7;
+    background-image: url(./pages/img-patagonia/7.jpg);
+}
+
+.pat8{
+    grid-area: item8;
+    background-image: url(./pages/img-patagonia/8.jpg);
+}
+
+/* Buenos Aires */
+
+.bsas1{
+    grid-area: item1;
+    background-image: url(./pages/img-bsas/1.jpg);
+}
+.bsas2{
+    grid-area: item2;
+    background-image: url(./pages/img-bsas/2.jpg);
+}
+.bsas3{
+    grid-area: item3;
+    background-image: url(./pages/img-bsas/3.jpg);
+}
+.bsas4{
+    grid-area: item4;
+    background-image: url(./pages/img-bsas/4.jpg);
+}
+.bsas5{
+    grid-area: item5;
+    background-image: url(./pages/img-bsas/5.jpg);
+}
+.bsas6{
+    grid-area: item6;
+    background-image: url(./pages/img-bsas/6.jpg);
+}
+.bsas7{
+    grid-area: item7;
+    background-image: url(./pages/img-bsas/7.jpg);
+}
+.bsas8{
+    grid-area: item8;
+    background-image: url(./pages/img-bsas/8.jpg);
+}
+
+/* Cordoba */
+
+.cor1{
+    grid-area: item1;
+    background-image: url(./pages/img-cordoba/1.jpg);
+}
+
+.cor2{
+    grid-area: item2;
+    background-image: url(./pages/img-cordoba/2.jpg);
+}
+
+.cor3{
+    grid-area: item3;
+    background-image: url(./pages/img-cordoba/3.jpg);
+}
+
+.cor4{
+    grid-area: item4;
+    background-image: url(./pages/img-cordoba/4.jpg);
+}
+
+.cor5{
+    grid-area: item5;
+    background-image: url(./pages/img-cordoba/5.jpg);
+}
+
+.cor6{
+    grid-area: item6;
+    background-image: url(./pages/img-cordoba/6.jpg);
+}
+
+.cor7{
+    grid-area: item7;
+    background-image: url(./pages/img-cordoba/7.jpg);
+}
+
+.cor8{
+    grid-area: item8;
+    background-image: url(./pages/img-cordoba/8.jpg);
+}
+
+.opcionesAlojamientos{
+    height: auto;
+    width: 100%;
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contenedor{
+    height: 300px;
+    width: 80%;
+    border: #aa6cf0 solid 1px;
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 768px)  {
+    header{
+        background-color:#f6f3fa;
+        width: 100%;
+        height:350px;
+    }
+
+    .barra{
+        display: inline-block;
+        width: 100%;
+        justify-content: start;
+    }
+
+    .barra li{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .registro{
+        display: flex;
+        justify-content: start;
+    }
+
+    .tituloGaleria{
+        height: auto;
+        font-size: 40px;
+        letter-spacing: 2px;
+    }
+    .galeria {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(8, 200px);
+        grid-template-areas: 
+        "item1"
+        "item2" 
+        "item3"
+        "item4" 
+        "item5" 
+        "item6"
+        "item7" 
+        "item8";
+    }
+}
+
+.form-group{
+    height: auto;
+    width: 30%;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.btn-primary{
+    margin-left: 20px ;
+}
+
+.btn-primary a{
+    text-decoration: none;
+    color: white;
+}
