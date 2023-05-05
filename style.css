@@ -503,15 +503,6 @@ header{
     background-image: url(./pages/img-cordoba/8.jpg);
 }
 
-.opcionesAlojamientos{
-    height: auto;
-    width: 100%;
-    margin: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
 .contenedor{
     height: 300px;
     width: 80%;
@@ -576,4 +567,17 @@ header{
 .btn-primary a{
     text-decoration: none;
     color: white;
+}
+
+.opcionesAlojamientos{
+    height: auto;
+    width: 100%;
+    margin: 20px;
+}
+
+.n-left{
+    height: 250px;
+    background-image: url(img/alojamientos.jpg);
+    background-size: cover;
+    margin-bottom: 10px;
 }
