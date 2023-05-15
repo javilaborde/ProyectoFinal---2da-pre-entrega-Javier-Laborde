@@ -176,7 +176,7 @@ header{
 .fondo-destino{
     height: 400px;
     width: 100%;
-    background-image: url(img/destino.jpg);
+    background-image: url(./img/destino.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -186,7 +186,7 @@ header{
 .fondo-alojamientos{
         height: 400px;
         width: 100%;
-        background-image: url(Img/alojamientos.jpg);
+        background-image: url(./img/alojamientos.jpg);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -196,7 +196,7 @@ header{
 .fondo-excursiones{
     height: 400px;
     width: 100%;
-    background-image: url(Img/excursiones.jpg);
+    background-image: url(./img/excursiones.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -206,7 +206,7 @@ header{
 .fondo-traslados{
     height: 400px;
     width: 100%;
-    background-image: url(Img/traslados.jpg);
+    background-image: url(./img/traslados.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -362,24 +362,6 @@ header{
         justify-content: start;
     }
 
-    .tituloGaleria{
-        height: auto;
-        font-size: 40px;
-        letter-spacing: 2px;
-    }
-    .galeria {
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(8, 200px);
-        grid-template-areas: 
-        "item1"
-        "item2" 
-        "item3"
-        "item4" 
-        "item5" 
-        "item6"
-        "item7" 
-        "item8";
-    }
 }
 
 .form-group{
