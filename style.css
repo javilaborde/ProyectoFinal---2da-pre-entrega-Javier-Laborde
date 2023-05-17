@@ -192,7 +192,7 @@ header{
         background-repeat: no-repeat;
         background-attachment: fixed;
 }
-    
+
 .fondo-excursiones{
     height: 400px;
     width: 100%;
@@ -362,6 +362,17 @@ header{
         justify-content: start;
     }
 
+    .contenedorNoticias{
+        height: 400px;
+        width: 100%;
+        background-color: #e8d2ff;
+        color: #912bff;
+        font-size: 16px;
+        display: flex;
+        flex-direction: column;
+    }
+
+
 }
 
 .form-group{
@@ -407,7 +418,7 @@ header{
 }
 
 .contenedorNoticias{
-    height: 70vh;
+    height: 400px;
     width: 100%;
     background-color: #e8d2ff;
     color: #912bff;
@@ -421,7 +432,7 @@ header{
 
 .noticia{
     width: 20%;
-    height: 50vh;
+    height: 320px;
     border: #d3b3f7 solid 0.5px;
     margin: 40px;
     padding-top: 20px;
