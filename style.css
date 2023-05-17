@@ -371,8 +371,6 @@ header{
         display: flex;
         flex-direction: column;
     }
-
-
 }
 
 .form-group{
@@ -493,7 +491,7 @@ header{
     font-size: 16px;
 }
 
-.tituloDestinos{
+.titulos{
     text-align: center;
     font-size: 50px;
     color: #912bff;
@@ -536,4 +534,13 @@ header{
 .carousel{
     height: 200px;
     width: 300px;
+}
+
+.card-deck{
+    padding: 20px 10px 20px 20px;
+}
+
+.card-deck .card{
+    height: auto; 
+    width: 20px; 
 }
