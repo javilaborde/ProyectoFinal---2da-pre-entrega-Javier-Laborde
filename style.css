@@ -65,6 +65,10 @@ header{
     font-size: 25px;
 }
 
+.opciones li {
+    height: 33px;
+}
+
 .barra a{
     text-decoration: none;
     background-image: linear-gradient(currentColor, currentColor);
