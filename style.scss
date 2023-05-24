@@ -1,10 +1,10 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     color: #630ad8;
     font-size: 20px;
     font-family: system-ui;
@@ -12,11 +12,11 @@ body{
     overflow-x: hidden;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
-header{
+header {
     /* background-color:#f6f3fa; */
     width: 100%;
     height: 100px;
@@ -28,40 +28,40 @@ header{
     text-align: center;
 }
 
-.logo{
+.logo {
     height: auto;
     width: 150px;
     float: left;
     padding-top: 10px;
 }
 
-.barra{
+.barra {
     /* float: right; */
     word-spacing: 30px;
     display: inline-block;
 }
 
-.barra a{
+.barra a {
     text-decoration: none;
 }
 
-.barra li{
+.barra li {
     list-style: none;
     display: inline-block;
 }
 
-.barra a:hover{
+.barra a:hover {
     color: #ff3cff;
 }
 
-.opciones{
+.opciones {
     margin: 10px;
     padding: 22px;
     /* border:#053d4b solid 1px;
-    border-radius: 25px; */
+  border-radius: 25px; */
 }
 
-.opciones a{
+.opciones a {
     color: #912bff;
     font-size: 25px;
 }
@@ -70,7 +70,7 @@ header{
     height: 33px;
 }
 
-.barra a{
+.barra a {
     text-decoration: none;
     background-image: linear-gradient(currentColor, currentColor);
     background-position: 0% 100%;
@@ -79,7 +79,7 @@ header{
     transition: background-size 0.6s;
 }
 
-.barra a:hover{
+.barra a:hover {
     background-size: 100% 3px;
 }
 
@@ -91,7 +91,7 @@ header{
     background-size: 100% 3px;
 }
 
-.registro{
+.registro {
     float: right;
     margin: 10px;
     padding-top: 28px;
@@ -99,21 +99,21 @@ header{
     font-size: 15px;
 }
 
-.registro li{
+.registro li {
     list-style: none;
     display: inline-block;
 }
 
-.registro a{
+.registro a {
     text-decoration: none;
     color: #912bff;
 }
 
-.registro a:hover{
+.registro a:hover {
     color: #ff3cff;
 }
 
-.fondo1{
+.fondo1 {
     height: 400px;
     width: 100%;
     background-image: url(./img/index.jpg);
@@ -123,13 +123,13 @@ header{
     background-attachment: fixed;
 }
 
-.inframes{
+.inframes {
     height: auto;
     width: 100%;
-    margin: 20px;   
+    margin: 20px;
 }
 
-.video{
+.video {
     height: 350px;
     width: 45%;
     display: inline-block;
@@ -137,27 +137,27 @@ header{
     margin-top: 15px;
 }
 
-.ubicacion{
+.ubicacion {
     display: inline-block;
 }
 
-#footer{
+#footer {
     height: 150px;
     width: 100%;
     background-color: #630ad8;
-    color: white !important; 
+    color: white !important;
 }
-    
-#footer section p{
+
+#footer section p {
     display: inline-block;
     text-align: left;
     color: #f5f3f9;
     font-size: 20px;
     margin-left: 20px;
-    margin-top: 55px;  
+    margin-top: 55px;
 }
-    
-#footer section a{
+
+#footer section a {
     text-align: right;
     color: #ffffff;
     font-size: 20px;
@@ -171,19 +171,19 @@ header{
     color: #aa6cf0;
 }
 
-.redes{
+.redes {
     padding-left: 35px;
 }
 
-.redes a{ 
+.redes a {
     color: rgb(253, 203, 255);
 }
 
-.redes a:hover{ 
+.redes a:hover {
     color: #ff3cff;
 }
 
-.fondo-destino{
+.fondo-destino {
     height: 400px;
     width: 100%;
     background-image: url(img/destino.jpg);
@@ -192,18 +192,18 @@ header{
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-    
-.fondo-alojamientos{
-        height: 400px;
-        width: 100%;
-        background-image: url(img/alojamientos.jpg);
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
+
+.fondo-alojamientos {
+    height: 400px;
+    width: 100%;
+    background-image: url(img/alojamientos.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
-.fondo-excursiones{
+.fondo-excursiones {
     height: 400px;
     width: 100%;
     background-image: url(img/excursiones.jpg);
@@ -212,8 +212,8 @@ header{
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-    
-.fondo-traslados{
+
+.fondo-traslados {
     height: 400px;
     width: 100%;
     background-image: url(img/traslados.jpg);
@@ -221,9 +221,9 @@ header{
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    }   
+}
 
-.conenedorCuadrados{
+.conenedorCuadrados {
     height: auto;
     width: 100%;
     display: flex;
@@ -231,7 +231,8 @@ header{
     flex-wrap: wrap;
     margin-top: 40px;
 }
-.cuadrado{
+
+.cuadrado {
     height: 320px;
     width: 300px;
     border: #bd90f9 solid 1px;
@@ -240,15 +241,16 @@ header{
     transition: all 0.7s;
 }
 
-.cuadrado:hover{
+.cuadrado:hover {
     transform: scale(1.08);
     transition: all 0.5s;
 }
-.cuadradroTitulo{
+
+.cuadradroTitulo {
     color: #630ad8;
 }
 
-.cuadradoContenedorFoto{
+.cuadradoContenedorFoto {
     height: 200px;
     width: 200px;
     margin: 0 auto;
@@ -258,24 +260,24 @@ header{
     box-sizing: content-box;
 }
 
-.cuadradoContenedorFoto img{
+.cuadradoContenedorFoto img {
     height: 200px;
     width: 200px;
     object-fit: cover;
 }
 
-.textoCuadro{
+.textoCuadro {
     color: #9c9c9c;
     font-size: 30px;
     text-align: center;
     padding: 50px;
 }
 
-.botonImg{
+.botonImg {
     margin: 15px;
 }
 
-.botonImg a{
+.botonImg a {
     height: 50px;
     width: auto;
     background-color: #5f1aae;
@@ -286,12 +288,12 @@ header{
     padding: 8px;
 }
 
-.botonImg a:hover{
+.botonImg a:hover {
     background-color: #ff3cff;
     transition: all 0.5s;
 }
 
-.tituloGaleria{
+.tituloGaleria {
     height: 110px;
     width: 100%;
     background-color: #630ad8;
@@ -308,28 +310,25 @@ header{
     font-weight: 600px;
 }
 
-.galeria{
+.galeria {
     background-color: rgb(240, 240, 240);
     height: auto;
     width: 100%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 200px);
-    grid-template-areas: 
-    "item1 item2 item3 item3"
-    "item1 item4 item5 item6"
-    "item7 item4 item8 item8";
+    grid-template-areas: "item1 item2 item3 item3" "item1 item4 item5 item6" "item7 item4 item8 item8";
     padding: 40px;
     grid-gap: 20px;
 }
 
-.itemImg{
+.itemImg {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-.item{
+.item {
     background-size: cover;
     background-position: center;
     border-radius: 10px;
@@ -337,63 +336,61 @@ header{
     transition: all 1s;
 }
 
-.item:hover{
+.item:hover {
     transform: scale(1.02);
     transition: all 0.9;
 }
 
-.contenedor{
+.contenedor {
     height: 300px;
     width: 80%;
     border: #aa6cf0 solid 1px;
     margin-bottom: 20px;
 }
 
-
-
-.form-group{
+.form-group {
     height: auto;
     width: 30%;
     padding-left: 20px;
     padding-top: 20px;
 }
 
-.btn-primary{
-    margin-left: 20px ;
+.btn-primary {
+    margin-left: 20px;
 }
 
-.btn-primary a{
+.btn-primary a {
     text-decoration: none;
     color: white;
 }
 
-.opcionesAlojamientos{
+.opcionesAlojamientos {
     height: auto;
     width: 100%;
     margin: 20px;
 }
 
-.n-left{
+.n-left {
     height: 250px;
     background-image: url(img/alojamientos.jpg);
     background-size: cover;
     margin-bottom: 10px;
 }
 
-.tituloNoticias h2{
+.tituloNoticias h2 {
     text-align: center;
     font-size: 50px;
     color: #912bff;
 }
 
-.tituloNoticias p{
+.tituloNoticias p {
     text-align: center;
     font-size: 12px;
     color: #912bff;
     margin-bottom: 5px;
 }
 
-.contenedorNoticias{
+.contenedorNoticias {
     height: 400px;
     width: 100%;
     background-color: #e8d2ff;
@@ -406,7 +403,7 @@ header{
     text-align: center;
 }
 
-.noticia{
+.noticia {
     width: 20%;
     height: 320px;
     border: #d3b3f7 solid 0.5px;
@@ -418,17 +415,17 @@ header{
     border-radius: 10px;
 }
 
-.noticia:hover{
+.noticia:hover {
     transform: scale(1.08);
 }
 
-.noticia p{
+.noticia p {
     text-align: left;
     margin-left: 35px;
     margin-bottom: 25px;
 }
 
-.noticia a{
+.noticia a {
     height: 50px;
     width: 25px;
     background-color: #5f1aae;
@@ -454,7 +451,7 @@ header{
     }
 }
 
-.contenedorNoticias img{
+.contenedorNoticias img {
     height: 100px;
     width: 200px;
     margin-top: 15px;
@@ -463,35 +460,35 @@ header{
     border-radius: 10px;
 }
 
-.tituloConocenos{
+.tituloConocenos {
     height: 200px;
     width: 100%;
     background-color: #f0e5fb;
     color: #912bff;
 }
 
-.tituloConocenos h2{
+.tituloConocenos h2 {
     text-align: left;
     padding-top: 20px;
     margin-left: 10%;
     font-size: 54px;
 }
 
-.tituloConocenos p{
+.tituloConocenos p {
     text-align: left;
     padding-top: 20px;
     margin-left: 10%;
     font-size: 16px;
 }
 
-.titulos{
+.titulos {
     text-align: center;
     font-size: 50px;
     color: #912bff;
     padding: 20px;
 }
 
-.contenedorDestinos{
+.contenedorDestinos {
     width: 50%;
     height: 100px;
     background-color: #912bff;
@@ -502,7 +499,7 @@ header{
     transition: all 1.5s;
 }
 
-.contenedorDestinos:hover{
+.contenedorDestinos:hover {
     height: 400px;
     width: 90%;
     background-color: #ffffff;
@@ -511,16 +508,16 @@ header{
     transition: all 2s;
 }
 
-.card-deck{
+.card-deck {
     padding: 20px 10px 20px 20px;
 }
 
-.card-deck .card{
-    height: auto; 
-    width: 20px; 
+.card-deck .card {
+    height: auto;
+    width: 20px;
 }
 
-.card{
+.card {
     animation: 8s veloz 1;
 }
 
@@ -540,37 +537,36 @@ header{
     }
 }
 
-
-@media only screen and (max-width: 768px)  {
-    header{
-        background-color:#f6f3fa;
+@media only screen and (max-width: 768px) {
+    header {
+        background-color: #f6f3fa;
         width: 100%;
         height: 350px;
     }
 
-    .barra{
+    .barra {
         display: inline-block;
         width: 100%;
         justify-content: start;
     }
 
-    .barra li{
+    .barra li {
         display: flex;
         flex-wrap: wrap;
     }
 
-    .registro{
+    .registro {
         display: flex;
         justify-content: start;
         float: left !important;
         margin-left: 5%;
     }
 
-    .tituloNoticias h2{
+    .tituloNoticias h2 {
         font-size: 40px;
     }
 
-    .contenedorNoticias{
+    .contenedorNoticias {
         height: auto;
         width: 100%;
         padding: 30px;
@@ -580,8 +576,8 @@ header{
         display: flex;
         flex-direction: column;
     }
-    
-    .noticia{
+
+    .noticia {
         width: 40%;
         height: 320px;
         border: #d3b3f7 solid 0.5px;
@@ -592,7 +588,9 @@ header{
         border-radius: 10px;
     }
 
-    .inframes .ubicacion{
+    .inframes .ubicacion {
         margin-left: 32px;
     }
 }
+
+/*# sourceMappingURL=style.scss.map */
