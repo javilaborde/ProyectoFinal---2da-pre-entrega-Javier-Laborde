@@ -349,24 +349,6 @@ header{
     margin-bottom: 20px;
 }
 
-
-
-.form-group{
-    height: auto;
-    width: 30%;
-    padding-left: 20px;
-    padding-top: 20px;
-}
-
-.btn-primary{
-    margin-left: 20px ;
-}
-
-.btn-primary a{
-    text-decoration: none;
-    color: white;
-}
-
 .opcionesAlojamientos{
     height: auto;
     width: 100%;
@@ -595,4 +577,61 @@ header{
     .inframes .ubicacion{
         margin-left: 32px;
     }
+}
+
+.form{
+    height: 100vh;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #912bff;
+    padding-top: 10vh;
+}
+
+.form-group{
+    height: 450px;
+    width: 350px;
+    margin-top: 40px;
+    padding: 50px;
+    background-color: #d2b5f8;
+    border-radius: 5px;
+}
+
+.form-group .contraseña{
+    padding-top: 15px;
+}
+
+.logoInicioSesion{
+    height: 100px;
+    width: 150px;
+    background-image: url(./img/logo-viajaja.png);
+    background-size: cover;
+    background-position: center;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    
+}
+
+.exampleInputPassword1{
+    padding-top: 55px;
+}
+
+.btn-primary{
+    width: 100%;
+    margin-top: 20px;
+    background-color: #5f1aae;
+}
+
+.btn-primary:hover {
+    background-color: #9538ff;
+}
+
+.btn-primary a{
+    text-decoration: none;
+    color: white;
+}
+
+.form-group label{
+    font-size: 24px;
 }
