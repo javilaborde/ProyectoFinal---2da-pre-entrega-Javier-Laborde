@@ -747,12 +747,21 @@ header{
     position: fixed;
     right: 20px;
     bottom: 50px;
+    width: 40px;
+    height: 40px;
     background-color: #9538ff;
-    padding: 10px;
+    padding-top: 7px;
+    text-align: center;
     color: #fff;
     font-size: 16px;
     border-radius: 100%;
     border: 2px solid #fff;
+}
+.botonSubir a {
+    color:white;
+}
+.botonSubir a:hover {
+    color:#bd90f9;
 }
 
 .contenedorInfoTraslados{
