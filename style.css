@@ -819,25 +819,24 @@ header{
 }
 
 .accordion-body img{
-    height: auto;
-    width: 40%;
     padding: 5px;
     border: #912bff 2px solid;
     border-radius: 10px;
+    margin-bottom: 15px;
 }
 
 .accordion-body h3{
     height: auto;
     width: 100%;
-    padding-left: 30px;
-    padding-top: 15px;
     font-size: 26px;
+    padding-left: 15px;
+    padding-bottom: 10px;
 }
 
 .accordion-body p{
     font-size: 16px;
-    padding-left: 30px;
-    padding-top: 20px;
+    padding-left: 15px;
+    /* padding-top: 20px; */
     font-style: none;
 }
 
