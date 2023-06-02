@@ -473,6 +473,9 @@ header{
     margin: 0 20px 0 20px;
     padding: 20px;
     border: #e5ceff 1px solid;
+    border-radius: 5px;
+    background-color: #ffe7ff;
+    color: #9532ff;
 }
 
 .cardDestinos h5{
@@ -840,3 +843,37 @@ header{
     font-style: none;
 }
 
+.titulosDestinos{
+    height: 80px;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 20px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #9532ff;
+    border: #e4cefd 1px solid;
+    border-radius: 5px;
+}
+
+.titulosDestinos h2{
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 35px;
+}
+
+.carousel-inner{
+    border-radius: 5px;
+}
+
+.card-body h5{
+    font-size: 28px;
+    margin: 5px 0 10px 5px;
+}
+
+.card-body p{
+    font-size: 16px;
+    color: #4c3f59;
+    text-align: justify;
+    margin-left: 5px;
+    margin-right: 20px;
+}
