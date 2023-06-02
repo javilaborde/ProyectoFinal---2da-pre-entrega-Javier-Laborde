@@ -348,15 +348,9 @@ header{
     text-align: center;
 }
 
-.textoNoticia{
-    height: auto;
-    width: 100%;
-    text-align: center;
-}
-
 .noticia{
     width: 20%;
-    height: 360px;
+    height: 380px;
     border: #d3b3f7 solid 0.5px;
     margin: 40px;
     padding-top: 20px;
@@ -364,6 +358,10 @@ header{
     background-color: #f0e5fb;
     transition: all 1s;
     border-radius: 10px;
+}
+
+.textoNoticia p{
+    margin-right: 15px;
 }
 
 .noticia:hover{
@@ -499,7 +497,7 @@ header{
     }
 }
 
-@media only screen and (min-width: 320px) and (max-width: 767px){
+@media only screen and (max-width: 767px){
 
     header{
         background-color:#f6f3fa;
