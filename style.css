@@ -877,3 +877,7 @@ header{
     margin-left: 5px;
     margin-right: 20px;
 }
+
+.card-deck{
+    margin-left: -20px;
+}
