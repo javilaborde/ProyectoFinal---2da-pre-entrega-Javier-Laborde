@@ -736,6 +736,50 @@ header{
     margin-bottom: 15px;
 }
 
+.formulario{
+    height: auto;
+    width: 100%;
+    background-color: #912bff;
+    color: #630ad8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+}
+
+.contenedorForm{
+    height: 115vh;
+    width: 400px;
+    background-color: #d2b5f8;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 25%;
+    
+}
+
+.contenedorForm h2{
+    padding-bottom: 15px;
+}
+
+.logoRegistrarse{
+    height: 100px;
+    width: 150px;
+    background-image: url(./img/logo-viajaja.png);
+    background-size: cover;
+    background-position: center;
+    margin: 15px 0 25px 18vh;
+}
+
+.contenedorForm input{
+    margin-bottom: 25px;
+    height: 30px;
+    width: 250px;
+    border: #ff3cff 1px solid;
+    border-radius: 5px;
+    color: #630ad8;
+    font-weight: 700;
+}
+
 }
 
 @media only screen and (min-width: 768px){
