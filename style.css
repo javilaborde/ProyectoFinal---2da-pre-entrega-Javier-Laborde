@@ -611,6 +611,25 @@ header{
     padding: 50px;
 }
 
+.botonVolver{
+    margin-top: 15px;
+    margin-right: 50px;
+}
+
+.botonVolver a{
+    color: #ffffff;
+    padding: 5px;
+    text-decoration: none;
+    border: white 1px solid;
+    border-radius: 10px;
+    background-color: #ff3cff;
+    transition: 0.6s;
+    font-size: 16px;
+}
+
+.botonVolver a:hover{
+    background-color: #5f1aae;
+    transition: all 0.6s;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px)  {
@@ -931,4 +950,6 @@ header{
 
 .card-deck{
     margin-left: -20px;
+}
+    
 }
