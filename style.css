@@ -730,9 +730,8 @@ header{
     background-image: url(./img/logo-viajaja.png);
     background-size: cover;
     background-position: center;
-    margin-left: 40px;
+    margin-left: 50px;
     margin-bottom: 20px;
-    
 }
 
 .exampleInputPassword1{
@@ -752,6 +751,52 @@ header{
 .btn-primary a{
     text-decoration: none;
     color: white;
+}
+
+.formulario{
+    height: auto;
+    width: 100%;
+    background-color: #912bff;
+    color: #630ad8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 25px;
+}
+
+.contenedorForm{
+    height: auto;
+    width: 400px;
+    margin-top: 40px;
+    margin-left: 38%;
+    padding: 50px;
+    background-color: #d2b5f8;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.contenedorForm h2{
+    padding-bottom: 15px;
+}
+
+.logoRegistrarse{
+    height: 100px;
+    width: 150px;
+    background-image: url(./img/logo-viajaja.png);
+    background-size: cover;
+    background-position: center;
+    margin-left: 75px;
+    margin-bottom: 25px;
+}
+
+.contenedorForm input{
+    margin-bottom: 25px;
+    height: 30px;
+    width: 250px;
+    border: #ff3cff 1px solid;
+    border-radius: 5px;
+    color: #630ad8;
+    font-weight: 700;
 }
 
 .botonSubir{

@@ -11,31 +11,22 @@
     <link rel="stylesheet" href="../style.css">
 </head>
 <body>
-    <form action="enviar.php" method="post" enctype="application/x-www-form-urlencoded">
+    <form action="enviar.php" method="post" enctype="application/x-www-form-urlencoded" class="formulario">
+        <div class="contenedorForm">
+        <div class="logoRegistrarse"> </div>
         <h2>¡Registrate!</h2>
-        Nombre: <input type="text" required> <br>
-        Contraseña: <input type="password" required><br>
-        E-mail: <input type="email" required> <br>
-        Fecha de Nacimiento: <input type="date" required> <br>
-        Numero de telefono: <input type="number" required> <br>
-        Numero de telefono 2: <input type="number" placeholder="Opcional" not-required>
+        Nombre:<br><input type="text" required> <br>
+        Contraseña:<br><input type="password" required><br>
+        E-mail:<br><input type="email" required> <br>
+        Fecha de Nacimiento:<br><input type="date" required> <br>
+        Numero de telefono:<br><input type="number" required> <br>
+        <div>
+            <h2 style="font-size: 16px;"> ¡Cuentanos algo de tí! </h2>
+            <textarea name="areadetexto" id="" cols="30" rows="5" placeholder="Escriba aquí..."></textarea> <br>
+            <a href="../index.html"> ¡Registrarme! </a>
+        </div>
+    </div>
     </form>
-    <div>
-        <h2 style="font-size: 16px;"> Seleccione el Genero </h2>
-        <label for="">Hombre</label>
-        <input type="radio" name="Sexo" value="hombre">
-            <br>
-        <label for="">Mujer</label> 
-        <input type="radio" name="Sexo" value="Mujer">
-            <br>
-        <label for="">Otro</label>
-        <input type="radio" name="Sexo" value="Otro">
-    </div>
-    <div>
-        <h2 style="font-size: 16px;"> ¡Cuentanos algo de tí! </h2>
-        <textarea name="areadetexto" id="" cols="30" rows="5" placeholder="Escriba aquí..."></textarea> <br>
-        <a href="./registro_exitoso.html"> ¡Registrarme!</a> •
-        <a href="../index.html"> Volver al Inicio </a>
-    </div>
+    
 </body>
 </html>
