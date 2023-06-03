@@ -729,6 +729,12 @@ header{
 .botonSubir a:hover {
     color:#bd90f9;
 }
+.accordion-body img{
+    padding: 5px;
+    border: #912bff 2px solid;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
 
 }
 
