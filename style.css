@@ -253,7 +253,7 @@ header{
 }
 
 .textoCuadro{
-    color: #9c9c9c;
+    color: #adccda;
     font-size: 30px;
     text-align: center;
     padding: 50px;
@@ -744,8 +744,8 @@ header{
 .formulario{
     height: auto;
     width: 100%;
-    background-color: #912bff;
-    color: #630ad8;
+    background-color: #00324a;
+    color: #00324a;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -767,7 +767,7 @@ header{
 .logoRegistrarse{
     height: 100px;
     width: 150px;
-    background-image: url(./img/logo-viajaja.png);
+    background-image: url(./img/logo-consultora.png);
     background-size: cover;
     background-position: center;
     margin: 15px 0 25px 60px;
@@ -777,7 +777,7 @@ header{
     margin-bottom: 25px;
     height: 30px;
     width: 250px;
-    border: #ff3cff 1px solid;
+    border: #00324a 1px solid;
     border-radius: 5px;
     color: #630ad8;
     font-weight: 700;
@@ -865,8 +865,8 @@ header{
 .formulario{
     height: auto;
     width: 100%;
-    background-color: #912bff;
-    color: #630ad8;
+    background-color: #00324a;
+    color: #00324a;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -879,7 +879,7 @@ header{
     margin-top: 40px;
     margin-left: 38%;
     padding: 50px;
-    background-color: #d2b5f8;
+    background-color: #adccda;
     border-radius: 5px;
     text-align: center;
 }
@@ -889,9 +889,9 @@ header{
 }
 
 .logoRegistrarse{
-    height: 100px;
+    height: 201px;
     width: 150px;
-    background-image: url(./img/logo-viajaja.png);
+    background-image: url(./img/logo-consultora.png);
     background-size: cover;
     background-position: center;
     margin-left: 75px;
@@ -902,7 +902,7 @@ header{
     margin-bottom: 25px;
     height: 30px;
     width: 250px;
-    border: #ff3cff 1px solid;
+    border: #00324a 1px solid;
     border-radius: 5px;
     color: #630ad8;
     font-weight: 700;
