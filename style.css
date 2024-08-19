@@ -5,7 +5,7 @@
 }
 
 body{
-    color: #630ad8;
+    color: #00324a;
     font-size: 20px;
     font-family: system-ui;
     font-weight: 600;
@@ -51,7 +51,7 @@ header{
 }
 
 .barra a:hover{
-    color: #ff3cff;
+    color: #1b6e8f;
 }
 
 .opciones{
@@ -62,7 +62,7 @@ header{
 }
 
 .opciones a{
-    color: #912bff;
+    color: #00324a;
     font-size: 25px;
 }
 
@@ -106,11 +106,11 @@ header{
 
 .registro a{
     text-decoration: none;
-    color: #912bff;
+    color: #00324a;
 }
 
 .registro a:hover{
-    color: #ff3cff;
+    color: #00324a;
 }
 
 .fondo1{
@@ -126,7 +126,7 @@ header{
 #footer{
     height: 150px;
     width: 100%;
-    background-color: #630ad8;
+    background-color: #00324a;
     color: white;
     display: flex;
     flex-direction: row;
@@ -233,7 +233,7 @@ header{
     transition: all 0.5s;
 }
 .cuadradroTitulo{
-    color: #630ad8;
+    color: #00324a;
 }
 
 .cuadradoContenedorFoto{
@@ -266,7 +266,7 @@ header{
 .botonImg a{
     height: 50px;
     width: auto;
-    background-color: #5f1aae;
+    background-color: #00324a;
     border-radius: 5px;
     color: white;
     font-size: 16px;
@@ -322,7 +322,7 @@ header{
 .tituloNoticias h2{
     text-align: center;
     font-size: 50px;
-    color: #912bff;
+    color: #00324a;
     margin-top: 5px;
 }
 
@@ -336,8 +336,8 @@ header{
 .contenedorNoticias{
     height: 450px;
     width: 100%;
-    background-color: #e8d2ff;
-    color: #912bff;
+    background-color: #1b6e8f;
+    color: #00324a;
     font-size: 16px;
     display: flex;
     flex-direction: row;
@@ -349,11 +349,11 @@ header{
 .noticia{
     width: 20%;
     height: 380px;
-    border: #d3b3f7 solid 0.5px;
+    border: #00324a solid 0.5px;
     margin: 40px;
     padding-top: 20px;
     box-shadow: 1px 3px 3px #858485;
-    background-color: #f0e5fb;
+    background-color: #adccda;
     transition: all 1s;
     border-radius: 10px;
 }
@@ -375,7 +375,7 @@ header{
 .noticia a{
     height: 50px;
     width: 25px;
-    background-color: #5f1aae;
+    background-color: #00324a;
     border-radius: 5px;
     color: white;
     text-decoration: none;
@@ -544,7 +544,7 @@ header{
         height: auto;
         width: 100%;
         padding: 30px;
-        background-color: #e8d2ff;
+        background-color: #adccda;
         color: #912bff;
         font-size: 18px;
         display: flex;
@@ -622,7 +622,7 @@ header{
     #footer{
     height: 150px;
     width: 100%;
-    background-color: #630ad8;
+    background-color: #00324a;
     color: white;
     display: flex;
     flex-direction: row;
@@ -702,7 +702,7 @@ header{
 .btn-primary{
     width: 100%;
     margin-top: 20px;
-    background-color: #5f1aae;
+    background-color: #00324a;
 }
 
 .btn-primary:hover {
@@ -720,7 +720,7 @@ header{
     bottom: 50px;
     width: 40px;
     height: 40px;
-    background-color: #9538ff;
+    background-color: #1b6e8f;
     padding-top: 7px;
     text-align: center;
     color: #fff;
@@ -732,7 +732,7 @@ header{
     color:white;
 }
 .botonSubir a:hover {
-    color:#bd90f9;
+    color:#1b6e8f;
 }
 .accordion-body img{
     padding: 5px;
@@ -805,7 +805,7 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #912bff;
+    background-color: #00324a;
     padding-top: 10vh;
 }
 
@@ -814,7 +814,7 @@ header{
     width: 350px;
     margin-top: 40px;
     padding: 50px;
-    background-color: #d2b5f8;
+    background-color: #1b6e8f;
     border-radius: 5px;
 }
 
@@ -850,11 +850,11 @@ header{
 .btn-primary{
     width: 100%;
     margin-top: 20px;
-    background-color: #5f1aae;
+    background-color: #00324a;
 }
 
 .btn-primary:hover {
-    background-color: #9538ff;
+    background-color: #1b6e8f;
 }
 
 .btn-primary a{
@@ -904,7 +904,7 @@ header{
     width: 250px;
     border: #00324a 1px solid;
     border-radius: 5px;
-    color: #630ad8;
+    color: #1b6e8f;
     font-weight: 700;
 }
 
@@ -914,7 +914,7 @@ header{
     bottom: 50px;
     width: 40px;
     height: 40px;
-    background-color: #9538ff;
+    background-color: #1b6e8f;
     padding-top: 7px;
     text-align: center;
     color: #fff;
@@ -934,7 +934,7 @@ header{
     width: 100%;
     padding: 50px 0 50px 0;
     padding-left: 13vh;
-    color: #9538ff;
+    color: #1b6e8f;
     background-color: #f1e6ff;
     font-size: 16px;
 }
@@ -964,7 +964,7 @@ header{
 
 .accordion-header button{
     font-size: 18px;
-    color: #9f5bec;
+    color: #1b6e8f;
     transition: all 0.8s;
 }
 
@@ -983,7 +983,7 @@ header{
 
 .accordion-body img{
     padding: 5px;
-    border: #912bff 2px solid;
+    border: #1b6e8f 2px solid;
     border-radius: 10px;
     margin-bottom: 15px;
 }
