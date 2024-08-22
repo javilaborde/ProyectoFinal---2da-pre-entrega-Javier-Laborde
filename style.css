@@ -168,12 +168,12 @@ margin-left: 50px;
     text-decoration: none;
     border: white 1px solid;
     border-radius: 10px;
-    background-color: #ff3cff;
+    background-color: #1b6e8f;
     transition: 0.6s;
 }
 
 .botonVolver a:hover{
-    background-color: #1b6e8f;
+    background-color: #adccda;
     transition: all 0.6s;
 }
 
@@ -331,6 +331,7 @@ margin-left: 50px;
     font-size: 50px;
     color: #00324a;
     margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .tituloNoticias p{
@@ -438,8 +439,15 @@ margin-left: 50px;
 .titulos{
     text-align: center;
     font-size: 50px;
-    color: #912bff;
+    color: #1b6e8f;
     padding: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.texto-nosotros{
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 .tituloTraslados{
@@ -648,7 +656,7 @@ margin-left: 50px;
     text-decoration: none;
     border: white 1px solid;
     border-radius: 10px;
-    background-color: #ff3cff;
+    background-color: #1b6e8f;
     transition: 0.6s;
     font-size: 12px;
 }
@@ -1017,7 +1025,7 @@ margin-left: 50px;
     padding: 20px;
     text-align: center;
     color: #ffffff;
-    background-color: #9532ff;
+    background-color: #00324a;
     border: #e4cefd 1px solid;
     border-radius: 5px;
 }
