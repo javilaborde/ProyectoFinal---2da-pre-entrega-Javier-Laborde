@@ -29,6 +29,11 @@ header{
     text-align: center;
 }
 
+.mision-vision{
+margin-left: 50px;
+}
+
+
 .logo{
     height: 150px;
     width: auto;
@@ -149,7 +154,7 @@ header{
 }
 
 .redes{
-    margin-left: 20px;
+    margin-left: 5px;
 }
 
 .botonVolver{
